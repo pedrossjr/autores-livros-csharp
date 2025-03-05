@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35806.99 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi8-Video", "WebApi8-Video\WebApi8-Video.csproj", "{EF86CC31-DFB9-40B2-8AA7-613A4617BFC0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF86CC31-DFB9-40B2-8AA7-613A4617BFC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF86CC31-DFB9-40B2-8AA7-613A4617BFC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF86CC31-DFB9-40B2-8AA7-613A4617BFC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF86CC31-DFB9-40B2-8AA7-613A4617BFC0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {87DC7B1C-0F8C-4F04-9345-67588D3766CC}
+	EndGlobalSection
+EndGlobal
