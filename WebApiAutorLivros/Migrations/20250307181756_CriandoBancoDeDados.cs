@@ -31,23 +31,23 @@ namespace WebApi8_Video.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Titulo = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    AutoresId = table.Column<int>(type: "int", nullable: false)
+                    AutorId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Livros", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Livros_Autores_AutoresId",
-                        column: x => x.AutoresId,
+                        name: "FK_Livros_Autores_AutorId",
+                        column: x => x.AutorId,
                         principalTable: "Autores",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_Livros_AutoresId",
+                name: "IX_Livros_AutorId",
                 table: "Livros",
-                column: "AutoresId");
+                column: "AutorId");
         }
 
         /// <inheritdoc />

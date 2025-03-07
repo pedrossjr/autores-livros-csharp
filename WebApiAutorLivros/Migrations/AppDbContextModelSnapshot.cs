@@ -50,7 +50,7 @@ namespace WebApi8_Video.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("AutoresId")
+                    b.Property<int>("AutorId")
                         .HasColumnType("int");
 
                     b.Property<string>("Titulo")
@@ -59,20 +59,20 @@ namespace WebApi8_Video.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("AutoresId");
+                    b.HasIndex("AutorId");
 
                     b.ToTable("Livros");
                 });
 
             modelBuilder.Entity("WebApi8_Video.Models.LivroModel", b =>
                 {
-                    b.HasOne("WebApi8_Video.Models.AutorModel", "Autores")
+                    b.HasOne("WebApi8_Video.Models.AutorModel", "Autor")
                         .WithMany("Livros")
-                        .HasForeignKey("AutoresId")
+                        .HasForeignKey("AutorId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Autores");
+                    b.Navigation("Autor");
                 });
 
             modelBuilder.Entity("WebApi8_Video.Models.AutorModel", b =>

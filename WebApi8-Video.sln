@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35806.99 d17.13
+VisualStudioVersion = 17.13.35806.99
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi8-Video", "WebApi8-Video\WebApi8-Video.csproj", "{EF86CC31-DFB9-40B2-8AA7-613A4617BFC0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiAutorLivros", "WebApi8-Video\WebApiAutorLivros.csproj", "{EF86CC31-DFB9-40B2-8AA7-613A4617BFC0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
